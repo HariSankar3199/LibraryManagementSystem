@@ -1,0 +1,30 @@
+.Forms{
+    display: flex;
+   border-radius: 5px;
+    
+    border: 1px solid cornflowerblue ;
+    width: 600px;
+    height: 60vh;
+    margin: auto;
+    box-shadow: 10px 10px 10px  cornflowerblue;
+}
+.addUserform{
+    align-items: center;
+    display: grid;
+    width: 300px;
+    margin-left:0px ;
+}
+.addUserimg img{
+    width: 300px;
+    height: 60vh;
+    border-radius: 5px;
+}
+.addUserform input{
+ display: flow-root;
+  align-items: center ;
+  margin-left:0px;
+}
+.addUserform {
+    text-align: justify;
+    margin-left: 60px;
+}

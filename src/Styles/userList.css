@@ -1,0 +1,30 @@
+.user_section {
+    background-color: white;
+
+
+
+}
+
+.users {
+    border: 2px solid cornflowerblue;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: justify;
+    width: 284px;
+    height: 290px;
+    margin: 11px;
+    padding: 0px 5%;
+    box-shadow: 5px 5px 5px cornflowerblue;
+
+}
+
+.users button {
+    color: rgb(185, 32, 32);
+    margin-bottom: 3px;
+    margin: auto;
+}
+
+#btn {
+    width: 50px;
+    text-align: center;
+}

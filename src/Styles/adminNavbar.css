@@ -1,0 +1,31 @@
+.adminNavbar{
+    background-color: cornflowerblue;
+    padding: 5px 5px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.adminNavbar a{
+    padding: 5px; 
+    margin: 4px;
+    text-decoration: none;
+    color: rgb(247, 244, 244);
+    font-size: medium;
+    font-weight: 500;
+}
+.adminNavbar a:hover{
+    background-color: azure;
+    border-radius: 6px;
+    color: black;
+}
+.logo img{
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.links{
+    margin-right: 50px;
+}
+.links li{
+    display: inline;
+}

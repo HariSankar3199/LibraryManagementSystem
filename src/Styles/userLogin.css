@@ -1,0 +1,55 @@
+.userlogin { 
+    height: 90vh;
+    background-color: cadetblue;
+}
+.form_container_card{
+    background-color: rgb(64, 100, 88);
+    width: 500px;
+    margin: 10% auto;
+    padding: 2%;
+    border: 2px solid black;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 8px;
+   
+}
+.form_input input{
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px ;
+    /* display:;
+    text-align: ; */
+}
+.form_input button{
+    margin: 10px;
+    padding: 5px;
+    color: black;
+    background-color: rgba(190, 165, 159, 0.589);
+    border: 1px solid white ;
+    border-radius: 5px;
+
+  
+}
+.form_input button:hover{
+    background-color: aliceblue;
+}
+.email{
+    margin: 2px;
+    text-align: center;
+}
+label{
+    text-align: left;
+    padding: 2px;
+}
+#a{
+    color: blanchedalmond;
+text-align: left;
+margin-right: 100px;
+padding: 2px;
+}
+#b{
+    color: blanchedalmond;
+text-align: left;
+margin-right: 130px;
+padding: 2px;
+}
+/* password */
