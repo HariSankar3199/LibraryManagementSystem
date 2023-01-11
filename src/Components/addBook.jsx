@@ -27,7 +27,7 @@ const AddBook = () => {
 
     return ( 
         <div className="addBook">
-            <h1>Add a Books</h1>
+            <h1>Add a Book</h1>
         
                
               <div className="addBookform">
@@ -46,7 +46,7 @@ const AddBook = () => {
                     </div>
                     <div className="pageCount">
                     {/*  <label htmlFor="">pageCount</label> */} 
-                        <input type="number" required placeholder='Enter pageCount name' value={pageCount} onChange={(e)=>setPageCount(e.target.value)}/>
+                        <input type="number" required placeholder='Enter pageCount' value={pageCount} onChange={(e)=>setPageCount(e.target.value)}/>
                     </div>
                     <div className="shortDescription">
                     {/*  <label htmlFor="">ShortDescription</label> */} 
@@ -59,7 +59,7 @@ const AddBook = () => {
                     </div>
                     <div className="thumbnailUrl">
                     {/*  <label htmlFor="">ThumbnailUrl</label> */} 
-                        <input type="text" required placeholder='Enter Authors name'value={thumbnailUrl} onChange={(e)=>setThumbnailUrl(e.target.value)} />
+                        <input type="text" required placeholder='Enter Thumbnail Url'value={thumbnailUrl} onChange={(e)=>setThumbnailUrl(e.target.value)} />
                     </div>
                     
                  <button>Add Book</button>
